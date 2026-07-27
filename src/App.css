@@ -1,0 +1,59 @@
+/* Grid – one full-width card per row */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.75rem;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+/* Cards – the box/background is back */
+.card {
+  background: #1e293b;
+  border-radius: 14px;
+  padding: 1.6rem 1.8rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  border: 1px solid #334155;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.45);
+}
+
+/* Countdown units – more horizontal room */
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin: 0.4rem 0;
+}
+
+.unit {
+  text-align: center;
+  flex: 1;
+  min-width: 70px;
+}
+
+.unit.time {
+  flex: 1.5;
+}
+
+.number {
+  display: block;
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.label {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.15rem;
+}
