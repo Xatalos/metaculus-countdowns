@@ -9,6 +9,7 @@ function App() {
     <div className="app">
       <header className="header">
         <h1>Metaculus Countdowns</h1>
+        <br />
       </header>
 
       <main className="grid">
@@ -20,13 +21,7 @@ function App() {
         ))}
       </main>
 
-      <footer>
-        Data from{' '}
-        <a href="https://www.metaculus.com" target="_blank" rel="noopener noreferrer">
-          Metaculus
-        </a>
-        . Updated daily via GitHub Actions.
-      </footer>
+      <br />
     </div>
   );
 }

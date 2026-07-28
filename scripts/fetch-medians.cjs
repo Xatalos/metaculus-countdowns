@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TOKEN = process.env.METACULUS_TOKEN;
-const IDS = [4588, 6956, 7721, 10217, 3515, 3479, 5121];
+const IDS = [7721, 10217, 3515, 3479, 5121];
 
 async function fetchPost(id) {
   const res = await fetch(`https://www.metaculus.com/api/posts/${id}/`, {
