@@ -1,8 +1,8 @@
 name: Update Metaculus medians
 
 on:
-  schedule:
-    - cron: '0 6 * * *'   # every day at 06:00 UTC
+#  schedule:
+#    - cron: '0 6 * * *'   # every day at 06:00 UTC
   workflow_dispatch:       # also allow manual runs
 
 permissions:
