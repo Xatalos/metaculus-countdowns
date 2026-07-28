@@ -2,36 +2,36 @@
   {
     "id": 7721,
     "title": "When will NASA next land astronauts on the Moon?",
-    "medianDate": "2029-09-20",
-    "category": "Space",
-    "updatedAt": "2026-07-28T00:00:00.000Z"
+    "medianDate": null,
+    "category": null,
+    "updatedAt": "2026-07-28T20:47:36.338Z"
   },
   {
     "id": 10217,
-    "title": "When will a free-flying commercial space station become operational?",
-    "medianDate": "2031-01-03",
-    "category": "Space",
-    "updatedAt": "2026-07-28T00:00:00.000Z"
+    "title": "When will a free flying commercial space station become operational?",
+    "medianDate": null,
+    "category": null,
+    "updatedAt": "2026-07-28T20:47:37.529Z"
   },
   {
     "id": 3515,
     "title": "When will the first humans land successfully on Mars?",
-    "medianDate": "2045-01-01",
-    "category": "Space",
-    "updatedAt": "2026-07-28T00:00:00.000Z"
+    "medianDate": null,
+    "category": null,
+    "updatedAt": "2026-07-28T20:47:38.661Z"
   },
   {
     "id": 3479,
-    "title": "When will the first weakly general AI system be announced?",
-    "medianDate": "2028-09-13",
-    "category": "AI",
-    "updatedAt": "2026-07-28T00:00:00.000Z"
+    "title": "When will the first weakly general AI system be devised, tested, and publicly announced?",
+    "medianDate": null,
+    "category": null,
+    "updatedAt": "2026-07-28T20:47:39.879Z"
   },
   {
     "id": 5121,
-    "title": "When will the first general AI system be announced?",
-    "medianDate": "2032-11-01",
-    "category": "AI",
-    "updatedAt": "2026-07-28T00:00:00.000Z"
+    "title": "When will the first general AI system be devised, tested, and publicly announced?",
+    "medianDate": null,
+    "category": null,
+    "updatedAt": "2026-07-28T20:47:41.235Z"
   }
 ]
