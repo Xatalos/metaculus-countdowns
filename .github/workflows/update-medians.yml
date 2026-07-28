@@ -15,7 +15,7 @@ jobs:
         env:
           METACULUS_TOKEN: ${{ secrets.METACULUS_TOKEN }}
         run: |
-          node scripts/fetch-medians.js
+          node scripts/fetch-medians.cjs
 
       - name: Commit if changed
         run: |
