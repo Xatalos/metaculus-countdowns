@@ -2,4 +2,4 @@ A smaller-scale hobby project created with **Vite** + **React** + **TypeScript**
 
 See the live countdowns page here: https://metaculus-countdowns.surge.sh/
 
-(note: currently the GitHub Action for updating predicted dates daily is turned off due to an outdated API token)
+(note: currently the GitHub Action for updating predicted dates daily is turned off due to my API token having restricted access to the data)
