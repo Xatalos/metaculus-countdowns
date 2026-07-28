@@ -3,7 +3,7 @@ import { CountdownCard } from './components/CountdownCard';
 import './App.css';
 
 function App() {
-  const { questions, loading, error, updatedAt } = useQuestions();
+  const { questions, loading, error } = useQuestions();
 
   return (
     <div className="app">
