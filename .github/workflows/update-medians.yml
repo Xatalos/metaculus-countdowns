@@ -1,0 +1,26 @@
+name: Update Metaculus medians
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # every day at 06:00 UTC
+  workflow_dispatch:       # also allow manual runs
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch medians
+        env:
+          METACULUS_TOKEN: ${{ secrets.METACULUS_TOKEN }}
+        run: |
+          node scripts/fetch-medians.js
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add public/data.json
+          git diff --staged --quiet || git commit -m "chore: update Metaculus medians"
+          git push

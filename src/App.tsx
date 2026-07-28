@@ -1,23 +1,32 @@
-import { questions } from './data/questions';
+import { useQuestions } from './hooks/useQuestions';
 import { CountdownCard } from './components/CountdownCard';
 import './App.css';
 
 function App() {
+  const { questions, loading, error, updatedAt } = useQuestions();
+
   return (
     <div className="app">
       <header className="header">
         <h1>Metaculus Countdowns</h1>
-        <p>Community predictions for when certain important events will occur!</p>
-        <p className="updated">Last updated: July 2026</p>
-        <br/>
       </header>
 
       <main className="grid">
-        {questions.map((q) => (
+        {loading && <p className="status">Loading latest predictions…</p>}
+        {error && <p className="status error">Could not load data: {error}</p>}
+
+        {!loading && !error && questions.map((q) => (
           <CountdownCard key={q.id} question={q} />
         ))}
       </main>
-      <br/>
+
+      <footer>
+        Data from{' '}
+        <a href="https://www.metaculus.com" target="_blank" rel="noopener noreferrer">
+          Metaculus
+        </a>
+        . Updated daily via GitHub Actions.
+      </footer>
     </div>
   );
 }
