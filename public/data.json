@@ -1,37 +1,62 @@
 [
   {
-    "id": 7721,
-    "title": "When will NASA next land astronauts on the Moon?",
-    "medianDate": "2029-09-20",
-    "category": "Space",
-    "updatedAt": "2026-07-28T00:00:00.000Z"
+    "id": 39297,
+    "title": "When will OpenAI release GPT-6?",
+    "medianDate": "2026-11-23",
+    "category": "AI"
   },
   {
-    "id": 10217,
-    "title": "When will a free-flying commercial space station become operational?",
-    "medianDate": "2031-01-03",
-    "category": "Space",
-    "updatedAt": "2026-07-28T00:00:00.000Z"
-  },
-  {
-    "id": 3515,
-    "title": "When will the first humans land successfully on Mars?",
-    "medianDate": "2045-01-01",
-    "category": "Space",
-    "updatedAt": "2026-07-28T00:00:00.000Z"
+    "id": 18546,
+    "title": "When will there be a ceasefire in the Ukraine war?",
+    "medianDate": "2027-10-16",
+    "category": "Geopolitics"
   },
   {
     "id": 3479,
     "title": "When will the first weakly general AI system be announced?",
-    "medianDate": "2028-09-13",
-    "category": "AI",
-    "updatedAt": "2026-07-28T00:00:00.000Z"
+    "medianDate": "2028-09-25",
+    "category": "AI"
+  },
+  {
+    "id": 4588,
+    "title": "When will SpaceX's Starship carry a human to orbit?",
+    "medianDate": "2029-03-28",
+    "category": "Space"
+  },
+  {
+    "id": 7721,
+    "title": "When will NASA next land astronauts on the Moon?",
+    "medianDate": "2029-09-20",
+    "category": "Space"
+  },
+  {
+    "id": 10217,
+    "title": "When will a free-flying commercial space station become operational?",
+    "medianDate": "2031-01-06",
+    "category": "Space"
+  },
+  {
+    "id": 3515,
+    "title": "When will the first humans land successfully on Mars?",
+    "medianDate": "2045-06-01",
+    "category": "Space"
   },
   {
     "id": 5121,
     "title": "When will the first general AI system be announced?",
-    "medianDate": "2032-11-01",
-    "category": "AI",
-    "updatedAt": "2026-07-28T00:00:00.000Z"
+    "medianDate": "2033-04-01",
+    "category": "AI"
+  },
+  {
+    "id": 19405,
+    "title": "When will there be a crewed mission to Jupiter?",
+    "medianDate": "2076-07-01",
+    "category": "Space"
+  },
+  {
+    "id": 1637,
+    "title": "When will a crewed spacecraft enter interstellar space?",
+    "medianDate": "2239-01-01",
+    "category": "Space"
   }
 ]
