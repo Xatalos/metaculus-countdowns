@@ -36,16 +36,16 @@
     "category": "Space"
   },
   {
-    "id": 3515,
-    "title": "When will the first humans land successfully on Mars?",
-    "medianDate": "2045-06-01",
-    "category": "Space"
-  },
-  {
     "id": 5121,
     "title": "When will the first general AI system be announced?",
     "medianDate": "2033-04-01",
     "category": "AI"
+  },
+  {
+    "id": 3515,
+    "title": "When will the first humans land successfully on Mars?",
+    "medianDate": "2045-06-01",
+    "category": "Space"
   },
   {
     "id": 19405,
