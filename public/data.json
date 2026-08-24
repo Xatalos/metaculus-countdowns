@@ -46,17 +46,5 @@
     "title": "When will the first humans land successfully on Mars?",
     "medianDate": "2045-06-01",
     "category": "Space"
-  },
-  {
-    "id": 19405,
-    "title": "When will there be a crewed mission to Jupiter?",
-    "medianDate": "2076-07-01",
-    "category": "Space"
-  },
-  {
-    "id": 1637,
-    "title": "When will a crewed spacecraft enter interstellar space?",
-    "medianDate": "2239-01-01",
-    "category": "Space"
   }
 ]
