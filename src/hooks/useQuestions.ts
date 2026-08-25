@@ -5,7 +5,6 @@ export function useQuestions() {
   const [questions, setQuestions] = useState<MetaculusQuestion[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [updatedAt, setUpdatedAt] = useState<string | null>(null);
 
   useEffect(() => {
     async function load() {
@@ -22,11 +21,10 @@ export function useQuestions() {
           category: q.category ?? undefined,
         }));
 
+        cleaned.sort((a, b) => a.medianDate.localeCompare(b.medianDate));
+
         setQuestions(cleaned);
 
-        if (data[0]?.updatedAt) {
-          setUpdatedAt(data[0].updatedAt);
-        }
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load data');
       } finally {
@@ -37,5 +35,5 @@ export function useQuestions() {
     load();
   }, []);
 
-  return { questions, loading, error, updatedAt };
+  return { questions, loading, error };
 }
