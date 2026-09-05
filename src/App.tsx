@@ -9,6 +9,7 @@ function App() {
     <div className="app">
       <header className="header">
         <h1>Metaculus Countdowns</h1>
+        <h2>(dates last fetched: 6.9.2026)</h2>
         <br />
       </header>
 
